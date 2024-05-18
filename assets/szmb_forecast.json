@@ -1,0 +1,52 @@
+[
+  {
+    "maxT": 29,
+    "minT": 24,
+    "forecastTime": "2024-05-19"
+  },
+  {
+    "maxT": 27,
+    "minT": 23,
+    "forecastTime": "2024-05-20"
+  },
+  {
+    "maxT": 29,
+    "minT": 23,
+    "forecastTime": "2024-05-21"
+  },
+  {
+    "maxT": 30,
+    "minT": 24,
+    "forecastTime": "2024-05-22"
+  },
+  {
+    "maxT": 30,
+    "minT": 25,
+    "forecastTime": "2024-05-23"
+  },
+  {
+    "maxT": 30,
+    "minT": 25,
+    "forecastTime": "2024-05-24"
+  },
+  {
+    "maxT": 29,
+    "minT": 24,
+    "forecastTime": "2024-05-25"
+  },
+  {
+    "maxT": 30,
+    "minT": 24,
+    "forecastTime": "2024-05-26"
+  },
+  {
+    "maxT": 30,
+    "minT": 25,
+    "forecastTime": "2024-05-27"
+  },
+  {
+    "maxT": 30,
+    "minT": 25,
+    "forecastTime": "2024-05-28"
+  }
+]
