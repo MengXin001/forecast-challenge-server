@@ -1,3 +1,3 @@
-export const dataParser = (forecastArray, element) =>{
-    return forecastArray.map(data => data[element]);
+export const dataParser = (forecastArray, element) => {
+    return forecastArray.filter(item => item.label === element).map(item => item.value)
 }
