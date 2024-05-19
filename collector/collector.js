@@ -7,12 +7,11 @@ async function collector() {
     try {
         const response = await axios.get(szmb_forecast_url[0]);
         const weatherData = response.data;
-        const extractedData = weatherData.daynew.map(day => {
-            return {
-                maxT: day.maxT,
-                minT: day.minT,
-                forecastTime: day.reportTime.slice(0, 10)
-            };
+        const extractedData = weatherData.daynew.flatMap(day => {
+            return [
+                { label: "minT", value: day.minT, forecastTime: day.reportTime.slice(0, 10) },
+                { label: "maxT", value: day.maxT, forecastTime: day.reportTime.slice(0, 10) }
+            ];
         });
         fs.writeFile('./assets/szmb_forecast.json', JSON.stringify(extractedData, null, 2), err => {
             if (err) {

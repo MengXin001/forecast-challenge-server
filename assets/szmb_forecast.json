@@ -1,52 +1,92 @@
 [
   {
-    "maxT": 29,
-    "minT": 24,
-    "forecastTime": "2024-05-19"
-  },
-  {
-    "maxT": 27,
-    "minT": 23,
+    "label": "minT",
+    "value": 23,
     "forecastTime": "2024-05-20"
   },
   {
-    "maxT": 29,
-    "minT": 23,
+    "label": "maxT",
+    "value": 26,
+    "forecastTime": "2024-05-20"
+  },
+  {
+    "label": "minT",
+    "value": 23,
     "forecastTime": "2024-05-21"
   },
   {
-    "maxT": 30,
-    "minT": 24,
+    "label": "maxT",
+    "value": 29,
+    "forecastTime": "2024-05-21"
+  },
+  {
+    "label": "minT",
+    "value": 24,
     "forecastTime": "2024-05-22"
   },
   {
-    "maxT": 30,
-    "minT": 25,
+    "label": "maxT",
+    "value": 30,
+    "forecastTime": "2024-05-22"
+  },
+  {
+    "label": "minT",
+    "value": 25,
     "forecastTime": "2024-05-23"
   },
   {
-    "maxT": 30,
-    "minT": 25,
+    "label": "maxT",
+    "value": 30,
+    "forecastTime": "2024-05-23"
+  },
+  {
+    "label": "minT",
+    "value": 25,
     "forecastTime": "2024-05-24"
   },
   {
-    "maxT": 29,
-    "minT": 24,
+    "label": "maxT",
+    "value": 30,
+    "forecastTime": "2024-05-24"
+  },
+  {
+    "label": "minT",
+    "value": 24,
     "forecastTime": "2024-05-25"
   },
   {
-    "maxT": 30,
-    "minT": 24,
+    "label": "maxT",
+    "value": 29,
+    "forecastTime": "2024-05-25"
+  },
+  {
+    "label": "minT",
+    "value": 24,
     "forecastTime": "2024-05-26"
   },
   {
-    "maxT": 30,
-    "minT": 25,
+    "label": "maxT",
+    "value": 30,
+    "forecastTime": "2024-05-26"
+  },
+  {
+    "label": "minT",
+    "value": 25,
     "forecastTime": "2024-05-27"
   },
   {
-    "maxT": 30,
-    "minT": 25,
+    "label": "maxT",
+    "value": 30,
+    "forecastTime": "2024-05-27"
+  },
+  {
+    "label": "minT",
+    "value": 25,
+    "forecastTime": "2024-05-28"
+  },
+  {
+    "label": "maxT",
+    "value": 30,
     "forecastTime": "2024-05-28"
   }
 ]
