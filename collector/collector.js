@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import fs from 'fs'
+import { dataParser } from './util.js';
 import { szmb_forecast_url } from '../config.js'
 
 async function collector() {
@@ -25,4 +26,4 @@ async function collector() {
     }
 }
 
-export { collector }
+export { collector, dataParser }
